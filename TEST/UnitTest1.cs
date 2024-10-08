@@ -16,6 +16,11 @@ namespace TEST
             var driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://store.steampowered.com/");
             var link = driver.FindElement(By.XPath("//*[@class='valve_links']//a[1]"));
+            var link = driver.FindElement(By.XPath("//*[@class='valve_links']//a[1]"));
+
+            var link = driver.FindElement(By.XPath("//*[@class='valve_links']//a[1]"));
+            var link = driver.FindElement(By.XPath("//*[@class='valve_links']//a[1]")); var link = driver.FindElement(By.XPath("//*[@class='valve_links']//a[1]"));
+
             link.Click();
         }
     }
